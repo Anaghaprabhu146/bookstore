@@ -1,0 +1,13 @@
+steps to create a express server
+1.create a folder for server
+2.npm init-to create a package.json file
+3.create a index.js
+4.install expres .js-npm i express
+5.import expres
+6.create a new server using express
+7.declare a port to run the application
+8.tell the seerver to listen to that port
+9.install cors
+10.impotr cors 
+11.tell the server to use the cors
+12.tell the server to use express .json() to parse
