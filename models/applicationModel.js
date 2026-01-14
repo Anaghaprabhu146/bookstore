@@ -29,5 +29,5 @@ const appilcationSchema = mongoose.Schema({
 });
 
 //model 3
-const appilcationModel = mongoose.model("applications", appilcationSchema);
-module.exports = appilcationModel;
+const applicationModel  = mongoose.model("applications", appilcationSchema);
+module.exports = applicationModel ;
