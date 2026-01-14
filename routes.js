@@ -57,7 +57,7 @@ router.post('/applyJob',resumeMulterConfig.single('resume'),applicationControlle
 
 router.post('/buyBook',jwtMiddleware,purchaseController.buyBook)
 
-router.post('/getAllApplications',jwtAdminMiddleware,applicationController.getAllApplications)
+router.get('/getAllApplications',jwtAdminMiddleware,applicationController.getAllApplications)
 
 //  deafulting exporting is
 module.exports = router;
